@@ -1,0 +1,8 @@
+.idea
+target
+
+**/*.iml
+**/META-INF/LICENSE
+
+**/pom.xml.releaseBackup
+**/release.properties
