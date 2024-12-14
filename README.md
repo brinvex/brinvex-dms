@@ -55,7 +55,7 @@ System.out.println("Deleted " + deletedCount + " soft-deleted documents.");
 ### Maven dependency declaration
 ````
 <properties>
-     <brinvex-dms.version>1.0.22</brinvex-dms.version>
+     <brinvex-dms.version>1.0.0</brinvex-dms.version>
 </properties>
     
 <repository>
