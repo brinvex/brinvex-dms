@@ -1,7 +1,7 @@
 set JAVA_HOME="C:\tools\java\jdk-21.0.1"
 
 REM Dont forget to update version in README
-set new_version=1.0.22
+set new_version=1.0.0
 
 set jsh_content=^
     Files.writeString(Path.of("README.md"), ^
