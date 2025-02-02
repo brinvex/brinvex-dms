@@ -54,7 +54,7 @@
         <rootDir>${project.basedir}</rootDir>
         <isPomPackagingModule>true</isPomPackagingModule>
 
-        <github.global.server>github</github.global.server>
+        <github.global.server>github-pubrepo-brinvex</github.global.server>
     </properties>
 
     <dependencyManagement>
@@ -160,7 +160,7 @@
                         <include>**/*</include>
                     </includes>
                     <!-- GitHub repo name -->
-                    <repositoryName>brinvex-repo</repositoryName>
+                    <repositoryName>brinvex-pubrepo</repositoryName>
                     <!-- GitHub username  -->
                     <repositoryOwner>brinvex</repositoryOwner>
                     <merge>true</merge>
