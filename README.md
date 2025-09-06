@@ -68,16 +68,11 @@ System.out.println("Deleted " + deletedCount + " soft-deleted documents.");
 </repository>
 
 <dependency>
-    <groupId>com.brinvex.util</groupId>
-    <artifactId>brinvex-dms-api</artifactId>
+    <groupId>com.brinvex</groupId>
+    <artifactId>brinvex-dms</artifactId>
     <version>${brinvex-dms.version}</version>
 </dependency>
-<dependency>
-    <groupId>com.brinvex.util</groupId>
-    <artifactId>brinvex-dms-impl</artifactId>
-    <version>${brinvex-dms.version}</version>
-    <scope>runtime</scope>
-</dependency>
+
 ````
 The library supports _JPMS_ and exports the module named _com.brinvex.dms_.
 
