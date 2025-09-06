@@ -22,8 +22,8 @@ The interface supports both soft and hard deletion of documents, allowing for fl
 
 ### Example
 ````
-DmsFactory dmsServiceFactory = DmsFactory.newFilesystemDmsFactory(Path.of("c:/tmp"));
-Dms dms = dmsServiceFactory.getDms("workspace1");
+DmsFactory dmsFactory = DmsFactory.newFilesystemDmsFactory(Path.of("c:/tmp"));
+Dms dms = dmsFactory.getDms("workspace1");
 
 // Add a text document
 dmsService.add("/docs", "example.txt", "Hello, World!");
